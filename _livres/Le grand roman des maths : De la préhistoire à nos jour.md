@@ -1,5 +1,5 @@
 ---
-titre: Le grand roman des maths : De la préhistoire à nos jour
+titre: "Le grand roman des maths : De la préhistoire à nos jour"
 note: 5
 lien: https://editions.flammarion.com/le-grand-roman-des-maths/9782081378766
 image: https://editions.flammarion.com/media/cache/couverture_medium/flammarion_img/Couvertures/9782081378766.jpg
