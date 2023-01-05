@@ -1,5 +1,7 @@
 ---
-titre: "Vous avez dit maths ? : de la maison à la ville, le monde en mathématiques"
+titre: |
+Vous avez dit maths ?
+De la maison à la ville, le monde en mathématiques
 note: 4
 lien: https://www.dunod.com/sciences-techniques/vous-avez-dit-maths-maison-ville-monde-en-mathematiques-0
 image: https://www.dunod.com/sites/default/files/styles/principal_desktop/public/thumbnails/image/9782100793303-001-X.jpeg
