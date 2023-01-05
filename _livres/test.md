@@ -1,4 +1,4 @@
 ---
-titre: Jane Doe
+titre: Titre du livre
 ---
-Jane has worked on Jekyll for the past *five years*.
+Description du livre

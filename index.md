@@ -2,9 +2,8 @@
 layout: default
 ---
 
-Tessst
+Voici la liste des livres:
 
 {% for livre in site.livres %}
-      {{ livre.titre }}
-  {{ livre.content | markdownify }}
+      <b>{{ livre.titre }} :</b>   {{ livre.content | markdownify }}
 {% endfor %}
