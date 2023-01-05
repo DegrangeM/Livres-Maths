@@ -3,8 +3,8 @@ layout: default
 ---
 
 Voici la liste des livres:
-<div>
-      {% for livre in site.livres %}
+{% for livre in site.livres %}
+      <div class="livre">
             <div>
                   <a href="{{ livre.lien }}">{{ livre.titre }}</a>
             </div>
@@ -13,5 +13,5 @@ Voici la liste des livres:
             </div>
             <div>{{ livre.note }}</div>
             <div>{{ livre.content | markdownify }}</div>
-      {% endfor %}
-</div>
+      </div>
+{% endfor %}
