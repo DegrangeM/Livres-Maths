@@ -1,3 +1,2 @@
 collections:
-  livres :
-    output: true
+- livres
