@@ -5,7 +5,8 @@ layout: default
 Voici la liste des livres:
 
 <div id="livres">
-{% for livre in site.livres %}
+{% assign livres = site.livres | sort: 'note' | reverse  %}
+{% for livre in livres %}
       <div class="livre">
             <div>
                   <a href="{{ livre.lien }}">{{ livre.titre }}</a>
