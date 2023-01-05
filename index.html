@@ -9,7 +9,7 @@ Voici la liste des livres:
 {% for livre in livres %}
       <div class="livre">
             <div class="titre">
-                  <a href="{{ livre.lien }}">{{ livre.titre | markdownify }}</a>
+                  <a href="{{ livre.lien }}">{{ livre.titre | newline_to_br | markdownify }}</a>
             </div>
             <div class="image">
                   <img src="{{ livre.image }}" />
