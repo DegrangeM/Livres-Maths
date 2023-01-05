@@ -3,7 +3,15 @@ layout: default
 ---
 
 Voici la liste des livres:
-
-{% for livre in site.livres %}
-      <b>{{ livre.titre }} :</b>   {{ livre.content | markdownify }}
-{% endfor %}
+<div>
+      {% for livre in site.livres %}
+            <div>
+                  <a href="{{ livre.lien }}">{{ livre.titre }}</a>
+            </div>
+            <div>
+                  <img src="{{ livre.image }}" />
+            </div>
+            <div>{{ livre.note }}</div>
+            <div>{{ livre.content | markdownify }}</div>
+      {% endfor %}
+</div>
