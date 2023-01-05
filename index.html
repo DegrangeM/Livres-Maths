@@ -3,6 +3,8 @@ layout: default
 ---
 
 Voici la liste des livres:
+
+<div id="livres">
 {% for livre in site.livres %}
       <div class="livre">
             <div>
@@ -15,3 +17,4 @@ Voici la liste des livres:
             <div>{{ livre.content | markdownify }}</div>
       </div>
 {% endfor %}
+</div>
