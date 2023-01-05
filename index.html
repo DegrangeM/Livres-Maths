@@ -8,13 +8,13 @@ Voici la liste des livres:
 {% assign livres = site.livres | sort: 'note' | reverse  %}
 {% for livre in livres %}
       <div class="livre">
-            <div>
+            <div class="titre">
                   <a href="{{ livre.lien }}">{{ livre.titre }}</a>
             </div>
-            <div>
+            <div class="image">
                   <img src="{{ livre.image }}" />
             </div>
-            <div>
+            <div class="note">
                   {% case livre.note %}
                         {% when 5 %}
                               ★★★★★
@@ -30,7 +30,7 @@ Voici la liste des livres:
                               ☆☆☆☆☆
                   {% endcase %}
             </div>
-            <div>{{ livre.content | markdownify }}</div>
+            <div class="avis">{{ livre.content | markdownify }}</div>
       </div>
 {% endfor %}
 </div>
