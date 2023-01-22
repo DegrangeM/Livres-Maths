@@ -1,5 +1,7 @@
 ---
-titre: Les Maths au tribunal
+titre: |
+  Les Maths au tribunal
+  *Quand les erreurs de calcul font les erreurs judiciaires*
 note: 4
 lien: https://www.seuil.com/ouvrage/les-maths-au-tribunal-leila-schneps/9782021104394
 image: https://ref.lamartinieregroupe.com/media/9782021104394/grande/110439_couverture_Hres_0.jpg
